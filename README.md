@@ -32,3 +32,8 @@ description
    iv. add reducer
    v. create store provider
    vi. handle add to cart button
+9. Create Cart Page
+   i. create cart.js
+   ii. use context to get cart items
+   iii. list items in cart items
+   iv. redirect to cart screen after add to cart
