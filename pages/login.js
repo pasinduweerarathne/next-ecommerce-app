@@ -90,7 +90,7 @@ const LoginScreen = () => {
           <button className="primary-button w-full">Login</button>
         </div>
         <div>
-          Don't have an accoutnt? <Link href="register">Registre</Link>
+          Don't have an accoutnt? <Link href="register">Register</Link>
         </div>
       </form>
     </Layout>

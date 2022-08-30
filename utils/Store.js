@@ -33,6 +33,8 @@ function reducer(state, action) {
 
       return { ...state, cart: { ...state.cart, cartItems } };
     }
+    case "CART_RESET":
+      return { ...state, cart: { cartItems: [] } };
     default:
       return state;
   }
