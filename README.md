@@ -68,3 +68,6 @@ description
 17. Create Payment Method Screen
     i. dispaly payment methods
     ii. save payment method in context
+18. Seed sample products
+    i. create product model in mongoose
+    ii. insert sample products to mongodb
