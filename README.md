@@ -40,3 +40,6 @@ description
 10. Update Quantity In The Cart
     i. add select box for quantity
     ii. handle select box change
+11. Save Cart Items
+    i. install js-cookie package
+    ii. save and retreive cart items in cookies

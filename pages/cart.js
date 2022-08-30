@@ -5,6 +5,7 @@ import { useContext } from "react";
 import Layout from "../components/Layout";
 import { Store } from "../utils/Store";
 import { useRouter } from "next/router";
+import dynamic from "next/dynamic";
 
 const CartScreen = () => {
   const { state, dispatch } = useContext(Store);
@@ -106,4 +107,4 @@ const CartScreen = () => {
   );
 };
 
-export default CartScreen;
+export default dynamic(() => Promise.resolve(CartScreen), { ssr: false });
