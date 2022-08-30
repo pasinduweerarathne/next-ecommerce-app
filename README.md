@@ -37,3 +37,6 @@ description
    ii. use context to get cart items
    iii. list items in cart items
    iv. redirect to cart screen after add to cart
+10. Update Quantity In The Cart
+    i. add select box for quantity
+    ii. handle select box change
