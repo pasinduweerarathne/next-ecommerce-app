@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import React from "react";
 
-const ProductItem = ({ product }) => {
+const ProductItem = ({ product, addToCartHandler }) => {
   return (
     <div className="card">
       <Link href={`/product/${product.slug}`}>
@@ -23,7 +22,11 @@ const ProductItem = ({ product }) => {
         </Link>
         <p>{product.brand}</p>
         <p>${product.price}</p>
-        <button type="button" className="primary-button">
+        <button
+          onClick={() => addToCartHandler(product)}
+          type="button"
+          className="primary-button"
+        >
           Add to cart
         </button>
       </div>

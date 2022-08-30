@@ -71,3 +71,7 @@ description
 18. Seed sample products
     i. create product model in mongoose
     ii. insert sample products to mongodb
+19. Load Products MongoDB
+    i. load products in home page from mongodb
+    ii. load products in product page from mongodb
+    iii. use product api to check count in stock in add to cart
