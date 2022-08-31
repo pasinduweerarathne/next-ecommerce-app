@@ -80,3 +80,11 @@ description
     ii. display payment method
     iii. display order items
     iv. implment create order
+21. Create Order Screen
+    i. implement backend api for order details
+    ii. load order data from backend
+    iii. display order details
+22. Create Register Screen
+    i. add signup api
+    ii. create register page
+    iii. call api on form submit

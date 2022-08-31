@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import CheckoutWizard from "../components/CheckoutWizard";
 import Layout from "../components/Layout";
 import { Store } from "../utils/Store";
-import toast from "react-toastify";
+import { toast } from "react-toastify";
 import Cookies from "js-cookie";
 
 export default function PaymentScreen() {
