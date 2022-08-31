@@ -17,7 +17,6 @@ export default function ShippingScreen() {
   const { state, dispatch } = useContext(Store);
   const { cart } = state;
   const { shippingAddress } = cart;
-
   const router = useRouter();
 
   useEffect(() => {
@@ -63,6 +62,7 @@ export default function ShippingScreen() {
           <input
             className="w-full"
             id="fullName"
+            autoFocus
             {...register("fullName", {
               required: "Pleace enter your full name",
             })}
