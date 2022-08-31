@@ -74,4 +74,9 @@ description
 19. Load Products MongoDB
     i. load products in home page from mongodb
     ii. load products in product page from mongodb
-    iii. use product api to check count in stock in add to cart
+    iii.use product api to check count in stock in add to cart
+20. Create Place Order Screen
+    i. display shipping address
+    ii. display payment method
+    iii. display order items
+    iv. implment create order
