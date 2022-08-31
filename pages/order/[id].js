@@ -81,7 +81,6 @@ export default function OrderSecreen() {
     shippingPrice,
     totalPrice,
     isPaid,
-    paidAt,
     isDelivered,
     deliveredAt,
   } = order;

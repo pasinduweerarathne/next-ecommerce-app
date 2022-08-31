@@ -93,3 +93,12 @@ description
     ii. handle payment
     iii. create backend api
     iv. update order state
+24. Create Order History Screen
+    i. create my order api
+    ii. create order history component
+    iii. fetch orders and display them
+    iv. Publish On Vercel
+25. create vercel account
+    i. connect to github
+    ii. set next auth and mongodb db in env vars
+    iii. push code to github
